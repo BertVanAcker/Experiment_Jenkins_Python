@@ -10,6 +10,7 @@ pipeline {
         steps {
             sh 'python -m pip install -r requirements.txt'
         }
+	}
     stage('hello') {
       steps {
         sh 'python src/hello.py'
