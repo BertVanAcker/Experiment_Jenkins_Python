@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Running Python-Simulink interface using custom virtual environment on LOCALHOST ') {
       steps {
-        sh 'C:\Users\B.MKR\Documents\\03_Repositories\Model_Based_Robotics\\04_ModSim\MethodsTechniques\ModelProcessing\pyMatSim\venv\Scripts\python.exe C:\Users\B.MKR\Documents\\03_Repositories\Model_Based_Robotics\\04_ModSim\MethodsTechniques\ModelProcessing\pyMatSim\examples\Example_1.py'
+        sh 'C:\\Users\\B.MKR\\Documents\\03_Repositories\\Model_Based_Robotics\\04_ModSim\\MethodsTechniques\\ModelProcessing\\pyMatSim\\venv\\Scripts\\python.exe C:\\Users\\B.MKR\\Documents\\03_Repositories\\Model_Based_Robotics\\04_ModSim\\MethodsTechniques\\ModelProcessing\\pyMatSim\\examples\\Example_1.py'
       }
     }
   }
